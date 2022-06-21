@@ -1,0 +1,56 @@
+ p, li, h2, h1, pr, pre, h5{
+  color: rgb(255, 255, 255);
+}
+a{
+  color: rgb(86, 162, 255);
+}
+
+html {
+  /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 30px;
+  /* Google fonts 输出的 CSS */
+  font-family: ’Serif Simplified‘;
+}
+h1 {
+  font-size: 60px;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: 5px 3px 1px rgb(0, 134, 27);
+}
+
+li {
+  font-size: 20px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+html {
+  background-color: #fbffe4;
+}
+h2 {
+  margin: 0;
+  padding: 10px 0;
+  color: #ffffff;
+  text-shadow: 5px 3px 1px rgb(0, 134, 27);
+}
+
+pre {
+  font-size: 20px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+body {
+  margin: 0 auto;
+  width: 900px;
+  background-color: #006b30;
+  padding: 0 20px 20px 20px;
+  border: 10px solid rgb(36, 36, 36);
+}
+article, a {
+  color: #ffffff;
+  font-size: large;
+}
